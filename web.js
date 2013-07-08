@@ -1,5 +1,5 @@
 var express = require('express');
-fs.readFile('/index.html', function (err, data) {
+fs.readFile('./index.html', function (err, data) {
   if (err) throw err;
   var mybuf = new Buffer(data);
 });
